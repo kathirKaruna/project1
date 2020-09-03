@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding: 0;
+}
+a{
+	display: block;
+	padding: 14px 0px;
+}
+.navbar-nav a:hover{
+	background-color: red;
+	color: white;
+}
+
+
+
+
+@media (max-width: 768px){
+.navbar-nav a:hover{
+	background: none;
+}
+.navbar{
+		display: block;
+		text-align: center;
+	}
+}
